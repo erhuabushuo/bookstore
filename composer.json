@@ -1,0 +1,22 @@
+{
+    "name": "erhuabushuo/bookstore",
+    "description": "Manages an online bookstore",
+    "minium-stability": "stable",
+    "license": "Apache-2.0",
+    "type": "project",
+    "authors": [
+        {
+          "name": "erhuabushuo",
+          "email": "erhuabushuo@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.19",
+        "twig/twig": "^1.24"
+    },
+    "autoload": {
+      "psr-4": {
+        "Bookstore\\": "src"
+      }
+    }
+}
